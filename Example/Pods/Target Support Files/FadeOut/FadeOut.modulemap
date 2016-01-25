@@ -1,0 +1,6 @@
+framework module FadeOut {
+  umbrella header "FadeOut-umbrella.h"
+
+  export *
+  module * { export * }
+}

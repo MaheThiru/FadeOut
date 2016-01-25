@@ -1,0 +1,14 @@
+PODS:
+  - FadeOut (0.1.0)
+
+DEPENDENCIES:
+  - FadeOut (from `../`)
+
+EXTERNAL SOURCES:
+  FadeOut:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FadeOut: ad2136f283e1304f0505646c8cf41ec59d68e2be
+
+COCOAPODS: 0.39.0
