@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		146F3EE470142BBA65E2404ACBE964D1 /* Pods-FadeOut_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8241CA40B9ABA360AE75CF1F2A1A3BB /* Pods-FadeOut_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1897F34A1C5651E50092A845 /* PodViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1897F3481C5651E50092A845 /* PodViewController.h */; };
+		1897F34B1C5651E50092A845 /* PodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F3491C5651E50092A845 /* PodViewController.m */; };
 		42B7CBA5DBF814F8A86139C1B919F8DF /* Pods-FadeOut_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433289FAF841A799595CE9666044F2C /* Pods-FadeOut_Tests-dummy.m */; };
 		4AB712535CAF8D8469079AA3BEB2D846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4B1D6566C5D1510AE2A7DC4198B96E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		BCBDD4B8491A253196CFEC4AEB800D33 /* FadeOut-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6BD78181957071FD13C8925AC150C /* FadeOut-dummy.m */; };
 		C04A8C0F9A22F538DB245BDCAF9F3699 /* FadeOut-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DCC1D2A2B75905F748371299564933 /* FadeOut-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C684735CFB25526B7A009B766878411B /* FadeOut.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E9EF1C2079360A7F5254236153F3044 /* FadeOut.bundle */; };
-		F267570CCD97FEEB75E136B73A73176B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D867795C96CE0F10ACE2BAC35B7EFBA /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		06CAF1FB87BAAAB5F0FD7EB325A37238 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D61ADCE942DB5242B062574C3B0FBC1 /* Pods-FadeOut_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FadeOut_Tests.modulemap"; sourceTree = "<group>"; };
+		1897F3481C5651E50092A845 /* PodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodViewController.h; sourceTree = "<group>"; };
+		1897F3491C5651E50092A845 /* PodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodViewController.m; sourceTree = "<group>"; };
 		3A7D93F0FB96089B564D242B6CC878B7 /* Pods-FadeOut_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeOut_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4BC6BD78181957071FD13C8925AC150C /* FadeOut-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FadeOut-dummy.m"; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		6E9EF1C2079360A7F5254236153F3044 /* FadeOut.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeOut.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B513A279145DDF7A5BFA1C6E4E16CB /* FadeOut.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FadeOut.xcconfig; sourceTree = "<group>"; };
 		7C15094AE5F597B90C61E800489E3C93 /* FadeOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FadeOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D867795C96CE0F10ACE2BAC35B7EFBA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		97135F924A6B0D18C102AAFC8EA91A0D /* Pods_FadeOut_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FadeOut_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D18C720E1CC44B66C03E73955DCCC5B /* Pods-FadeOut_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadeOut_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A6FDA116605D03A16CB5FBDB9F3F3C15 /* Pods-FadeOut_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FadeOut_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -156,7 +158,8 @@
 		B3C25A8F8B9365268486CA08063B97D6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7D867795C96CE0F10ACE2BAC35B7EFBA /* ReplaceMe.m */,
+				1897F3481C5651E50092A845 /* PodViewController.h */,
+				1897F3491C5651E50092A845 /* PodViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04A8C0F9A22F538DB245BDCAF9F3699 /* FadeOut-umbrella.h in Headers */,
+				1897F34A1C5651E50092A845 /* PodViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1897F34B1C5651E50092A845 /* PodViewController.m in Sources */,
 				BCBDD4B8491A253196CFEC4AEB800D33 /* FadeOut-dummy.m in Sources */,
-				F267570CCD97FEEB75E136B73A73176B /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
