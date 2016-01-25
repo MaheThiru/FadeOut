@@ -38,7 +38,7 @@
         [alert addAction:ok];
 
         
-        [self presentViewController:alert animated:YES completion:nil];
+        [[[[[UIApplication sharedApplication] delegate] window] rootViewController] presentViewController:alert animated:NO completion:nil];
         
     }
     else
