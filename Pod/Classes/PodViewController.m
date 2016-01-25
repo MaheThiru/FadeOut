@@ -34,6 +34,21 @@
      ];
 }
 
+#pragma mark - Method to FadeIn the view in animation
+
+- (void) fadeIn:(UIView *)animationView timeInterval:(NSTimeInterval)timeDuration timeDelay:(NSTimeInterval)timeDelay fadeOutValue:(CGFloat) fadeOutOpacity {
+    
+    animationView.alpha = 0.0;
+    [UIView animateWithDuration:timeDuration
+                          delay:timeDelay
+                        options:UIViewAnimationOptionRepeat
+                     animations:^{
+                         animationView.alpha = fadeOutOpacity;
+                     }
+                     completion:nil
+     ];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

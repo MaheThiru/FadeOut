@@ -13,4 +13,7 @@
 // Method to Update the FadeOut View
 - (void) fadeOut:(UIView *)animationView timeInterval:(NSTimeInterval)timeDuration timeDelay:(NSTimeInterval)timeDelay fadeOutValue:(CGFloat) fadeOutOpacity;
 
+// Method to Update the FadeIn View
+- (void) fadeIn:(UIView *)animationView timeInterval:(NSTimeInterval)timeDuration timeDelay:(NSTimeInterval)timeDelay fadeOutValue:(CGFloat) fadeOutOpacity;
+
 @end
