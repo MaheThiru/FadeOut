@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FadeOut"
-  s.version          = "0.1.14"
+  s.version          = "0.1.15"
   s.summary          = "Fadeout Description to use FadOut UIView"
 
 # This description is used to generate tags and improve search results.
@@ -29,26 +29,26 @@ Pod::Spec.new do |s|
 
 # s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'FadeOut' => ['Pod/Assets/*.png']
+    'FadeOut' => ['FadeoutLib/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'FadeoutLib/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
 
     s.subspec 'AlertCheck' do |ss|
-        ss.source_files = 'Pod/Classes/AlertViewController.{h,m}'
-    # ss.public_header_files = 'Pod/Classes/AlertViewController.h'
+        ss.source_files = 'FadeoutLib/AlertViewController.{h,m}'
+    # ss.public_header_files = 'FadeoutLib/AlertViewController.h'
     end
 
     s.subspec 'AlertCheckTest' do |ss|
-        ss.source_files = 'Pod/Classes/AlertViewControllerCheck.{h,m}'
-        ss.private_header_files = 'Pod/Classes/AlertViewControllerCheck.h'
+        ss.source_files = 'FadeoutLib/AlertViewControllerCheck.{h,m}'
+        ss.private_header_files = 'FadeoutLib/AlertViewControllerCheck.h'
     end
 
     s.subspec 'FadeOutCheck' do |ss|
-        ss.source_files = 'Pod/Classes/PodViewController.{h,m}'
-        ss.public_header_files = 'Pod/Classes/PodViewController.h'
+        ss.source_files = 'FadeoutLib/PodViewController.{h,m}'
+        ss.public_header_files = 'FadeoutLib/PodViewController.h'
     end
 
 end
