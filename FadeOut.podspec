@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FadeOut"
-  s.version          = "0.1.13"
+  s.version          = "0.1.14"
   s.summary          = "Fadeout Description to use FadOut UIView"
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+# s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'FadeOut' => ['Pod/Assets/*.png']
   }
