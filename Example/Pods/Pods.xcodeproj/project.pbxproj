@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		146F3EE470142BBA65E2404ACBE964D1 /* Pods-FadeOut_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8241CA40B9ABA360AE75CF1F2A1A3BB /* Pods-FadeOut_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182734481C58C9EA0052D196 /* AlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 182734461C58C9EA0052D196 /* AlertViewController.h */; };
+		182734491C58C9EA0052D196 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734471C58C9EA0052D196 /* AlertViewController.m */; };
 		1897F34A1C5651E50092A845 /* PodViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1897F3481C5651E50092A845 /* PodViewController.h */; };
 		1897F34B1C5651E50092A845 /* PodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F3491C5651E50092A845 /* PodViewController.m */; };
-		1897F3721C56617C0092A845 /* AlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1897F3701C56617C0092A845 /* AlertViewController.h */; };
-		1897F3731C56617C0092A845 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F3711C56617C0092A845 /* AlertViewController.m */; };
 		42B7CBA5DBF814F8A86139C1B919F8DF /* Pods-FadeOut_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433289FAF841A799595CE9666044F2C /* Pods-FadeOut_Tests-dummy.m */; };
 		4AB712535CAF8D8469079AA3BEB2D846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4B1D6566C5D1510AE2A7DC4198B96E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -40,10 +40,10 @@
 /* Begin PBXFileReference section */
 		06CAF1FB87BAAAB5F0FD7EB325A37238 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D61ADCE942DB5242B062574C3B0FBC1 /* Pods-FadeOut_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FadeOut_Tests.modulemap"; sourceTree = "<group>"; };
+		182734461C58C9EA0052D196 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		182734471C58C9EA0052D196 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		1897F3481C5651E50092A845 /* PodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodViewController.h; sourceTree = "<group>"; };
 		1897F3491C5651E50092A845 /* PodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodViewController.m; sourceTree = "<group>"; };
-		1897F3701C56617C0092A845 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
-		1897F3711C56617C0092A845 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		3A7D93F0FB96089B564D242B6CC878B7 /* Pods-FadeOut_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeOut_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4BC6BD78181957071FD13C8925AC150C /* FadeOut-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FadeOut-dummy.m"; sourceTree = "<group>"; };
@@ -118,15 +118,6 @@
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		1897F36F1C5661440092A845 /* AlertCheck */ = {
-			isa = PBXGroup;
-			children = (
-				1897F3701C56617C0092A845 /* AlertViewController.h */,
-				1897F3711C56617C0092A845 /* AlertViewController.m */,
-			);
-			name = AlertCheck;
-			sourceTree = "<group>";
-		};
 		320C40B1A35E666E789B698548C62F7A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +162,8 @@
 		B3C25A8F8B9365268486CA08063B97D6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1897F36F1C5661440092A845 /* AlertCheck */,
+				182734461C58C9EA0052D196 /* AlertViewController.h */,
+				182734471C58C9EA0052D196 /* AlertViewController.m */,
 				1897F3481C5651E50092A845 /* PodViewController.h */,
 				1897F3491C5651E50092A845 /* PodViewController.m */,
 			);
@@ -231,7 +223,7 @@
 			files = (
 				C04A8C0F9A22F538DB245BDCAF9F3699 /* FadeOut-umbrella.h in Headers */,
 				1897F34A1C5651E50092A845 /* PodViewController.h in Headers */,
-				1897F3721C56617C0092A845 /* AlertViewController.h in Headers */,
+				182734481C58C9EA0052D196 /* AlertViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +344,7 @@
 			files = (
 				1897F34B1C5651E50092A845 /* PodViewController.m in Sources */,
 				BCBDD4B8491A253196CFEC4AEB800D33 /* FadeOut-dummy.m in Sources */,
-				1897F3731C56617C0092A845 /* AlertViewController.m in Sources */,
+				182734491C58C9EA0052D196 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
