@@ -5,6 +5,6 @@
       location = "group:FadeOut.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/FirstTask/FadeOut/Example/Pods/NamePos3e4.xcodeproj">
+      location = "group:/Users/thiruvadisamy_p/Documents/LearningProjects/ObjC/FirstTask/FadeOut/Example/Pods/FadeOutTest.xcodeproj">
    </FileRef>
 </Workspace>
