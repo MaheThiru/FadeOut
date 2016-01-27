@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FadeOut"
-  s.version          = "0.1.10"
+  s.version          = "0.1.13"
   s.summary          = "Fadeout Description to use FadOut UIView"
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,12 @@ Pod::Spec.new do |s|
 
     s.subspec 'AlertCheck' do |ss|
         ss.source_files = 'Pod/Classes/AlertViewController.{h,m}'
-        ss.public_header_files = 'Pod/Classes/AlertViewController.h'
+    # ss.public_header_files = 'Pod/Classes/AlertViewController.h'
+    end
+
+    s.subspec 'AlertCheckTest' do |ss|
+        ss.source_files = 'Pod/Classes/AlertViewControllerCheck.{h,m}'
+        ss.private_header_files = 'Pod/Classes/AlertViewControllerCheck.h'
     end
 
     s.subspec 'FadeOutCheck' do |ss|

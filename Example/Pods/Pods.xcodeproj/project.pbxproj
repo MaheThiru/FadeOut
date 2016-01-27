@@ -10,6 +10,8 @@
 		146F3EE470142BBA65E2404ACBE964D1 /* Pods-FadeOut_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8241CA40B9ABA360AE75CF1F2A1A3BB /* Pods-FadeOut_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		182734481C58C9EA0052D196 /* AlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 182734461C58C9EA0052D196 /* AlertViewController.h */; };
 		182734491C58C9EA0052D196 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734471C58C9EA0052D196 /* AlertViewController.m */; };
+		1827344C1C58FCF70052D196 /* AlertViewControllerCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 1827344A1C58FCF70052D196 /* AlertViewControllerCheck.h */; };
+		1827344D1C58FCF70052D196 /* AlertViewControllerCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827344B1C58FCF70052D196 /* AlertViewControllerCheck.m */; };
 		1897F34A1C5651E50092A845 /* PodViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1897F3481C5651E50092A845 /* PodViewController.h */; };
 		1897F34B1C5651E50092A845 /* PodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897F3491C5651E50092A845 /* PodViewController.m */; };
 		42B7CBA5DBF814F8A86139C1B919F8DF /* Pods-FadeOut_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5433289FAF841A799595CE9666044F2C /* Pods-FadeOut_Tests-dummy.m */; };
@@ -42,6 +44,8 @@
 		0D61ADCE942DB5242B062574C3B0FBC1 /* Pods-FadeOut_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FadeOut_Tests.modulemap"; sourceTree = "<group>"; };
 		182734461C58C9EA0052D196 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		182734471C58C9EA0052D196 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		1827344A1C58FCF70052D196 /* AlertViewControllerCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewControllerCheck.h; sourceTree = "<group>"; };
+		1827344B1C58FCF70052D196 /* AlertViewControllerCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewControllerCheck.m; sourceTree = "<group>"; };
 		1897F3481C5651E50092A845 /* PodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodViewController.h; sourceTree = "<group>"; };
 		1897F3491C5651E50092A845 /* PodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodViewController.m; sourceTree = "<group>"; };
 		3A7D93F0FB96089B564D242B6CC878B7 /* Pods-FadeOut_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadeOut_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				182734471C58C9EA0052D196 /* AlertViewController.m */,
 				1897F3481C5651E50092A845 /* PodViewController.h */,
 				1897F3491C5651E50092A845 /* PodViewController.m */,
+				1827344A1C58FCF70052D196 /* AlertViewControllerCheck.h */,
+				1827344B1C58FCF70052D196 /* AlertViewControllerCheck.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04A8C0F9A22F538DB245BDCAF9F3699 /* FadeOut-umbrella.h in Headers */,
+				1827344C1C58FCF70052D196 /* AlertViewControllerCheck.h in Headers */,
 				1897F34A1C5651E50092A845 /* PodViewController.h in Headers */,
 				182734481C58C9EA0052D196 /* AlertViewController.h in Headers */,
 			);
@@ -344,6 +351,7 @@
 			files = (
 				1897F34B1C5651E50092A845 /* PodViewController.m in Sources */,
 				BCBDD4B8491A253196CFEC4AEB800D33 /* FadeOut-dummy.m in Sources */,
+				1827344D1C58FCF70052D196 /* AlertViewControllerCheck.m in Sources */,
 				182734491C58C9EA0052D196 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
