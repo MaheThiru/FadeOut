@@ -49,6 +49,21 @@
      ];
 }
 
+#pragma mark - Method to Perform FadeIn and FadeOut
+
+-(void) fadeOperation:(UIView *) animationView WithTimeInterval:(NSTimeInterval) timeDuration WithTImeDelay:(NSTimeInterval) timeDelay fadeOutStartingValue:(CGFloat ) fadeOutStartingOpacity fadeOutEndingValue:(CGFloat) fadeOutEndingOpacity {
+    
+    
+    animationView.alpha=fadeOutStartingOpacity;
+    [UIView animateKeyframesWithDuration:timeDuration
+                                   delay:timeDelay
+                                 options:UIViewAnimationOptionCurveEaseOut
+                              animations:^{
+                                  animationView.alpha=fadeOutEndingOpacity;
+                              }
+                              completion:nil];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
