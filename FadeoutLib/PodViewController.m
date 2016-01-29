@@ -55,9 +55,9 @@
     
     
     animationView.alpha=fadeOutStartingOpacity;
-    [UIView animateKeyframesWithDuration:timeDuration
+    [UIView animateWithDuration:timeDuration
                                    delay:timeDelay
-                                 options:UIViewAnimationOptionCurveEaseOut
+                                 options:UIViewAnimationOptionRepeat
                               animations:^{
                                   animationView.alpha=fadeOutEndingOpacity;
                               }
